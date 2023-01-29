@@ -1,0 +1,118 @@
+.main-bar {
+  width: calc(100% - 314px - 24px);
+  float: left;
+  margin: 25px 0px;
+  padding: 0;
+}
+
+.main-bar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.q-len > p {
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.main-bar-header h1 {
+  font-weight: 400;
+}
+
+.main-bar-header .ask-btn {
+  border: 2px solid rgb(151 40 3);
+  background-color: rgb(151, 40, 3);
+  color: white;
+  width: 115px;
+  height: 35px;
+  padding: 0px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 14px;
+  font-weight: 540;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-bar-header .ask-btn:hover {
+  background-color: white;
+  color: rgb(151, 40, 3);
+}
+
+.display-question-container {
+  min-height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(250, 250, 250);
+  border-bottom: solid 1px #edeff0;
+  border-radius: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(66 42 42 / 19%);
+}
+
+.display-question-container .display-votes-ans {
+  padding: 20px;
+}
+.display-question-container .display-votes-ans p {
+  margin: 0%;
+  text-align: center;
+}
+
+.display-question-details {
+  flex-grow: 1;
+  padding: 0px 20px;
+}
+
+.question-title-link {
+  text-decoration: none;
+  color: #237ad8;
+  font-size: 15px;
+  font-weight: 460;
+  transition: 0.3s;
+}
+
+.question-title-link:hover {
+  color: #009dff;
+}
+
+.display-question-details p {
+  padding: 4px;
+  margin: 0%;
+}
+
+.display-tags-time .display-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display-tags-time {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+/* aside {
+  background-color: #009dff;
+} */
+.display-tags-time .display-tags p {
+  margin: 4px;
+  padding: 2px 4px;
+  font-size: 13px;
+  border-radius: 5px;
+  background-color: rgb(235 198 186 / 50%);
+  border: 1px solid brown;
+  color: black;
+}
+.display-tags-time .display-time {
+  font-size: 13px;
+  color: gray;
+}
+@media screen and (max-width: 875px) {
+  .main-bar {
+    width: 100%;
+    float: left;
+    margin: 25px 0px;
+    padding: 0;
+  }
+}
