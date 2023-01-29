@@ -1,0 +1,147 @@
+.main-nav {
+  min-height: 50px;
+  width: 100%;
+  margin: 0% auto;
+  border-top: solid 3px rgb(151, 40, 3);
+  box-shadow: 0px 1px 5px #00000033;
+  position: fixed;
+  z-index: 5;
+  top: 0%;
+  left: 0%;
+  background-color: #e7eeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  height: 100%;
+  min-width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  padding: 5px 25px;
+}
+
+.nav-item {
+  margin: 0px 3px;
+  font-size: small;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(69, 69, 69);
+  transition: 0.2s;
+}
+.about {
+  text-decoration: none;
+  color: rgb(58, 56, 56);
+  padding: 5px;
+  font-weight: 600;
+}
+.about:hover {
+  background-color: rgba(233, 228, 228, 0.724);
+  border-radius: 20px;
+}
+.nav-btn {
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.nav-item:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.navbar form {
+  flex-grow: 1;
+  padding: 0px 12px;
+  position: relative;
+}
+
+.navbar form input {
+  min-width: 80%;
+  margin: 0;
+  padding: 8px 10px 8px 32px;
+  font-size: 13px;
+  border: solid 1px #0000003e;
+  border-radius: 3px;
+}
+
+.navbar form .search-icon {
+  position: absolute;
+  left: 25px;
+  top: 8px;
+}
+
+.nav-active {
+  background-color: #f48428;
+  color: black;
+}
+
+.nav-active:hover {
+  background-color: #f8c073;
+}
+.dropbtn {
+  color: black;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-color: transparent;
+
+  /* transition: cubic-bezier(0.215, 0.61, 0.355, 1); */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 400px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content > p {
+  display: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgba(251, 248, 248, 0.801);
+  /* border-radius: 10px; */
+}
+.nav-links {
+  padding: 7px 13px;
+  border: solid 1px rgb(151 40 3);
+  border-radius: 3px;
+  background-color: rgb(235 198 186 / 50%);
+  cursor: pointer;
+}
+
+.nav-links:hover {
+  background-color: rgb(235 198 186 / 80%);
+}
+
+.nav-links:focus {
+  background-color: rgb(235 198 186 / 50%);
+  color: brown;
+}
+@media screen and (max-width: 665px) {
+  form {
+    display: none;
+  }
+}
