@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="socials">
                 <div className="social-item">
                     <a
-                        href='https://github.com/rahulcode751/Segment-Fault/tree/main/client'
+                        href='https://github.com/pj1807/Segment-Fault/tree/main/client'
                         target='_blank'
                         rel="noreferrer"
                     >
@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
                 <div className="social-item">
                     <a
-                        href='https://github.com/rahulcode751/Segment-Fault/tree/main/server'
+                        href='https://github.com/pj1807/Segment-Fault/tree/main/server'
                         target='_blank'
                         rel="noreferrer"
                     >
