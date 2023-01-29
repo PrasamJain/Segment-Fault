@@ -9,7 +9,7 @@ Segment Fault is a question and answer website for professional and enthusiast p
 
 2. Setup the code -
 
-   - Create a `.env` file and the format should be as given in `.env.example`.
+   - Create a `.env` file and the format should be as given in `config.env`.
    - Clone the code-
 
      ```
@@ -19,7 +19,7 @@ Segment Fault is a question and answer website for professional and enthusiast p
 
 3. Setup the backend code -
 
-   - Create a `.env` file and the format should be as given in `.env.example`.
+   - Create a `.env` file and the format should be as given in `config.env`.
    - Goto server directory and install the modules-
 
    ```
@@ -53,6 +53,4 @@ Segment Fault is a question and answer website for professional and enthusiast p
 
 ## Made By
 
-### Rahul Bairagi | [📝 LinkedIn](https://www.linkedin.com/in/rahul-bairagi-b88b20165/)
-### Pravishti Bhardwaj | [📝 LinkedIn](https://www.linkedin.com/in/pravishti-bhardwaj-7b4042200/)
-### Prathmesh Modhe | [📝 LinkedIn](https://www.linkedin.com/in/pmodhe2001/)
+### Prasam Jain | Prachur Gupta | Chirag Jain
