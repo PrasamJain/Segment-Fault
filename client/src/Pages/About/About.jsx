@@ -15,26 +15,26 @@ The website serves as a platform for users to ask and answer questions, and, thr
         <ul>
           <li>
             <div>
-              <p>Prathmesh Modhe</p>
-              <a href="https://www.linkedin.com/in/pmodhe2001/" target="_blank " rel="noreferrer">
+              <p>Prasam Jain</p>
+              <a href="https://www.linkedin.com/in/prasam-jain-59a45a191" target="_blank " rel="noreferrer">
                 Linkedin
               </a>
             </div>
           </li>
           <li>
             <div>
-              <p> Rahul Bairagi</p>
-              <a style={{ padding: "0 39px" }} href="https://www.linkedin.com/in/rahul-bairagi-b88b20165/" target="_blank" rel="noreferrer">
+              <p> Prachur Gupta</p>
+              <a style={{ padding: "0 39px" }} href="https://www.linkedin.com/in/prachur-gupta-917b321ba/" target="_blank" rel="noreferrer">
                 Linkedin
               </a>
             </div>
           </li>
           <li>
             <div>
-              <p>Pravishti Bhardwaj</p>
+              <p>Chirag Jain</p>
               <a
                 style={{ padding: "0 2px" }}
-                href="https://www.linkedin.com/in/pravishti-bhardwaj-7b4042200/"
+                href="https://www.linkedin.com/in/chirag-jain-813b9322b/"
                 target="_blank" rel="noreferrer"
               >
                 Linkedin
